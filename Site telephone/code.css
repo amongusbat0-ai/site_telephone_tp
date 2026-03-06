@@ -1,0 +1,19 @@
+.Phone1{
+    width: 100px;
+    height: 110px;
+    background-color: rgb(183, 223, 223);
+    
+}
+.Phone1 :hover{
+    transform: scale(1.3);
+    background-color: aqua;
+}
+#Acceuil
+#Bon_plans_😎
+#Nos_téléphone
+#Accessoire
+
+header{
+background-color: white;
+color: black;
+}
