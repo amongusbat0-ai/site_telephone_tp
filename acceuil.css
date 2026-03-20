@@ -52,7 +52,7 @@ body {
     display: flex;
     justify-content: center; /* centre horizontalement */
     gap: 40px; /* espace entre les liens */
-    margin-bottom: 20px; /* Permet de faire une marge dessous*/
+    margin-bottom: 30px; /* Permet de faire une marge dessous*/
 }
 
 .menu a {
