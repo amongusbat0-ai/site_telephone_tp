@@ -1,0 +1,94 @@
+#acceuil
+#Bon_plan
+#Nos_telephone
+
+header{
+    background-color: white;
+    color: black;
+}
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* centre horizontalement */
+    gap: 40px; /* espace entre les liens */
+    margin-bottom: 35px; /* espace en dessous du menu */
+}
+
+.menu a {
+    text-decoration: none; /* enlève le soulignement des liens */
+    font-weight: 600; /*met le texte en semi‑gras*/
+    color: black; /*change la couleur du texte*/
+}
+
+.grille{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-rows: 4fr 1fr ;
+    place-items: center;
+}
+
+img{
+    max-height: 400px;
+    width: auto;
+    box-shadow: 0 4px 8px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.photo1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.photo1:hover{
+    scale: 110%;
+}
+
+.photo2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;   
+}
+
+.photo2:hover{
+    scale: 110%;
+}
+
+.photo3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.photo3:hover{
+    scale: 110%;
+}
+
+.texte-tel-1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 2/3;
+    
+}
+
+.texte-tel-2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.texte-tel-3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
