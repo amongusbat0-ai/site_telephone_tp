@@ -16,6 +16,12 @@ body {
     width: 100%;
     overflow: hidden;
 }
+.carousel img {
+    width: 100%;
+    height: 350px;      /* ajuste la hauteur comme tu veux */
+    object-fit: contain; /* garde les proportions sans couper */
+}
+
 
 .slides {
     display: flex;
