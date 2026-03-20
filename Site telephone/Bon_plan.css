@@ -2,6 +2,17 @@
 #Bon_plan
 #Nos_telephone
 
+body{
+font-family: 'Inter', sans-serif;
+}
+
+
+
+
+
+
+
+
 header{
 background-color: white;
 color: black;
@@ -15,9 +26,4 @@ justify-content: center;
  font-weight: bold;   /* met le texte en gras */
     margin-bottom: 8px;  /* espace entre le texte et l'image */
     display: block;      /* garantit qu'il reste au-dessus */
-}
-
-
-
-
 }
