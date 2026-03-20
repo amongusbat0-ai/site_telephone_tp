@@ -26,7 +26,7 @@ body {
 .slides {
     display: flex;
     width: 400%; /* 4 images */
-   animation: defilement 12s infinite linear;  /* Cette ligne lance l’animation nommée defilement, dure 12 secondes, tourne en boucle et avance à vitesse constante.*/ 
+   animation: defilement 20s infinite linear;  /* Cette ligne lance l’animation nommée defilement, dure 12 secondes, tourne en boucle et avance à vitesse constante.*/ 
 }
 
 .slides img {
