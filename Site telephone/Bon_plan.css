@@ -6,7 +6,8 @@ header{
 background-color: white;
 color: black;
 }
-.header{
+.bonplan{
+ display: flex;
+justify-content: center;
 
-    
 }
