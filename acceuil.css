@@ -1,7 +1,4 @@
 
-#acceuil
-#Bon_plan
-#Nos_telephone
 
 header{ /* Permet de mettre la couleur dans le fond de la partie head et la couleur principale */
     background-color: white;
@@ -12,13 +9,13 @@ body {
 }
 
 
-.carousel {
+.carousel { /*Permet de prendre tout la largeur et cache ce qui dépasse*/
     width: 100%;
     overflow: hidden;
 }
 .carousel img {
-    width: 100%;
-    height: 350px;      /* ajuste la hauteur comme tu veux */
+    width: 100%;/*Permet de prendre toute la largeur du conteneur */
+    height: 350px;      /* ajuster la hauteur */
     object-fit: contain; /* garde les proportions sans couper */
 }
 
@@ -26,8 +23,8 @@ body {
 .slides {
     display: flex;
     width: 400%; /* 4 images */
-   animation: defilement 50s infinite linear;  /* Cette ligne lance l’animation nommée defilement, dure 12 secondes, tourne en boucle et avance à vitesse constante.*/ 
-}
+   animation: defilement 50s infinite linear;  /* Cette ligne lance l’animation nommée defilement, dure 50 secondes, tourne en boucle et avance à vitesse constante.*/ 
+
 
 .slides img {
     width: 100%;
