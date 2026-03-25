@@ -42,3 +42,10 @@ justify-content: center;
     font-weight: 600; /*met le texte en semi‑gras*/
     color: black; /*change la couleur du texte*/
 }
+
+
+.texte-tel-1 {
+    grid-column-start: 1; /* place le texte sous la première image dans la première colonne */
+    grid-column-end: 2; /* finit avant la deuxième colonne */
+    grid-row: 2/3; /* place le texte dans la deuxième ligne */
+}
