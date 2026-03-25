@@ -32,7 +32,7 @@ justify-content: center;
     list-style: none; /*sert à enlever les puces ou numéros des listes.*/
     padding: 0; /* Fait des espace pour le menu */
     margin: 0; /* Fait une marge*/
-    display: flex;
+    display: flex; /*Permet d organiser les element*/
     justify-content: center; /* centre horizontalement */
     gap: 40px; /* espace entre les liens */
 }
