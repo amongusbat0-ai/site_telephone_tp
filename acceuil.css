@@ -3,12 +3,12 @@
 #Bon_plan
 #Nos_telephone
 
-header{
+header{ /* Permet de mettre la couleur dans le fond de la partie head et la couleur principale */
     background-color: white;
     color: black;
 }
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif; /* Sert a faire fonctionner la police custom */
 }
 
 
@@ -47,8 +47,8 @@ body {
 
 .menu ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
+    padding: 0; /* Fait des espace pour le menu */
+    margin: 0; /* Fait une marge*/
     display: flex;
     justify-content: center; /* centre horizontalement */
     gap: 40px; /* espace entre les liens */
